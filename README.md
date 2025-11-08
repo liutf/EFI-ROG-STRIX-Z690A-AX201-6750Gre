@@ -87,18 +87,9 @@ EFI/
 
 ## 系统截图
 - Geekbench 6 + Cinebench R23 性能测试
+![9d35aa34b7c9163bff95ae196e0b2ef1](https://github.com/user-attachments/assets/afac7133-dff5-4366-9401-8bc8d15161fe)
 
 
-## 常见问题
-
-**Q: 为什么需要解锁CFG Lock？**
-A: CFG Lock限制了CPU的一些高级电源管理功能，解锁后可以获得更好的性能和稳定性。
-
-**Q: 为什么蓝牙不能正常使用？**
-A: 确保已正确安装IntelBluetoothFirmware.kext和IntelBTPatcher.kext驱动。
-
-**Q: USB端口如何定制？**
-A: 使用USBToolBox.kext和USBPort.kext进行定制，避免USB端口数量限制。
 
 ## 更新日志
 
